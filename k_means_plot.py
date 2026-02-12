@@ -29,6 +29,6 @@ def plot_comparison(S_initial, centroids_initial, S_final, centroids_final, k):
     ax2.grid(True, linestyle='--', alpha=0.5)
 
     plt.tight_layout()
-    plt.show()
     plt.savefig('kmeans_result.png', dpi=300) 
     print("Result saved as 'kmeans_result.png'!")
+    plt.show()
